@@ -1,0 +1,25 @@
+label{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  width: 150px;
+  border: 1.5px solid rgb(68, 75, 75);
+}
+
+.form{
+  display: flex;
+  gap: 15px;
+ 
+}
+
+button{
+  padding: 0 20px;
+  height: 22px;
+  align-self: self-end;
+  color: rgb(240, 242, 243);
+  background-color: rgb(66, 66, 66);
+  border: 1.5px solid rgb(3, 249, 253);
+  border-radius: 5px;
+}

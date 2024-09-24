@@ -1,0 +1,40 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.timer{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  color: rgb(50, 47, 47);
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+}
+
+.value{
+  color: rgb(39, 36, 36);
+  font-size: 24px;
+  font-weight: 600;
+  margin: auto;
+  margin-block-end: -5px;
+  margin-block-start: 20px;
+}
+
+.label{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+button{
+  padding: 5px 20px;
+  border-color: azure;
+  border-radius: 5px;
+  background-color: rgb(72, 72, 72);
+  color: azure;
+}
